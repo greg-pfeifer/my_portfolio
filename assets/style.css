@@ -1,6 +1,3 @@
-
-/* UNIVERSAL AND INITIAL SELECTORS */
-
 * {
     font-family:'Franklin Gothic Medium', 
     'Arial Narrow', Arial, 
@@ -35,8 +32,6 @@ a {
     color: white;
     justify-content: end;
 }
-
-/* BODY SELECTORS */
 
 h2 {
     font-size: 35px;
@@ -77,8 +72,8 @@ div img {
     grid-row: 2;
 }
 
-@media (max-width:500px) {
-    /* flex-direction: column; */
+@media (max-width: 500px) {
+    flex-direction: column;
 }
 
 
